@@ -1,0 +1,703 @@
+2023-07-16 17:18:56,570 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Version 5.6.2
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: java.version=1.8.0_202
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: os.name=Windows 10
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: os.arch=amd64
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: os.version=10.0
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: java.awt.headless=null
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Available Processors =8
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: JMeterHome=C:\JMeter\apache-jmeter-5.6.2
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: user.dir  =C:\JMeter\apache-jmeter-5.6.2\bin
+2023-07-16 17:18:56,586 INFO o.a.j.JMeter: PWD       =C:\JMeter\apache-jmeter-5.6.2\bin
+2023-07-16 17:19:01,138 INFO o.a.j.JMeter: IP: 192.168.237.1 Name: DESKTOP-N7Q701L FullName: DESKTOP-N7Q701L
+2023-07-16 17:19:01,154 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-07-16 17:19:01,299 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-07-16 17:19:02,198 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:02,479 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:02,573 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:02,573 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:20,989 INFO o.a.j.s.FileServer: Default base='C:\JMeter\apache-jmeter-5.6.2\bin'
+2023-07-16 17:19:20,989 INFO o.a.j.g.a.Load: Loading file: C:\JMeter\JMeter_Scripts\httpbin.jmx
+2023-07-16 17:19:20,989 INFO o.a.j.s.FileServer: Set new base='C:\JMeter\JMeter_Scripts'
+2023-07-16 17:19:21,098 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-07-16 17:19:21,114 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-07-16 17:19:21,114 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-07-16 17:19:21,114 INFO o.a.j.s.SaveService: Loading file: C:\JMeter\JMeter_Scripts\httpbin.jmx
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-07-16 17:19:21,145 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-07-16 17:19:21,202 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-07-16 17:19:21,202 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-07-16 17:19:21,202 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-07-16 17:19:21,202 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-07-16 17:19:21,540 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,556 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,571 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,587 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,681 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.backend.BackendListenerClient], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,681 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.backend.BackendListenerClient], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:21,712 INFO o.a.j.s.FileServer: Set new base='C:\JMeter\JMeter_Scripts'
+2023-07-16 17:19:52,972 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:19:52,972 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:19:52,972 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:19:52,972 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-07-16 17:19:52,972 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-07-16 17:19:53,214 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:53,214 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeter\apache-jmeter-5.6.2\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-07-16 17:19:53,230 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:19:53,230 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:19:53,892 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:19:53,980 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:19:53,980 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:19:53,980 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:19:53,980 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:19:53,996 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:19:53,996 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:19:53,996 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:19:54,011 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-N7Q701L
+2023-07-16 17:19:54,011 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-07-16 17:19:54,121 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-07-16 17:19:54,136 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-07-16 17:19:54,136 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-07-16 17:19:54,247 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-07-16 17:19:54,247 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-07-16 17:19:54,247 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-07-16 17:19:54,497 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:19:55,007 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:19:55,480 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:19:55,981 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:19:56,480 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:19:56,980 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:19:57,480 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:19:57,980 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:19:58,480 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:20:18,899 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 17:20:18,899 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:20:19,267 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 17:20:19,267 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:20:19,643 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 17:20:19,643 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:20:20,180 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 17:20:20,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:20:20,444 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 17:20:20,444 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:20:20,696 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 17:20:20,696 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:20:21,598 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 17:20:21,598 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:20:22,164 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 17:20:22,164 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:20:22,246 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 17:20:22,246 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:20:22,873 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 17:20:22,873 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:20:22,873 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:20:22,874 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:20:22,874 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:20:22,884 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:20:22,885 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 17:30:28,648 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:30:28,648 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:30:28,648 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:30:28,648 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:30:28,678 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:30:28,803 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:30:28,803 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:30:28,803 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:30:28,803 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:30:28,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:30:28,819 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:30:28,819 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:30:29,320 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:30:29,821 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:30:30,319 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:30:30,819 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:30:30,824 INFO o.a.j.g.a.Start: Stopping test
+2023-07-16 17:30:30,836 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-2
+2023-07-16 17:30:30,836 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group - Bin_Org 1-2 sampler: GET - Request Inspection API
+2023-07-16 17:30:30,838 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-10
+2023-07-16 17:30:30,838 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-8
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-6
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-1
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-3
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:30:30,839 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-07-16 17:30:30,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-7
+2023-07-16 17:30:30,839 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-9
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-4
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:30:30,840 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Stopping: Thread Group - Bin_Org 1-5
+2023-07-16 17:30:30,841 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:30:30,841 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:30:30,840 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:30:30,841 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group - Bin_Org 1-5 sampler: GET - HTTP Method API
+2023-07-16 17:30:30,841 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:30:30,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:30:30,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:30:30,842 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:30:30,857 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:30:30,857 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:30:30,874 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:30:30,874 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 17:39:33,285 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:39:33,285 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:39:33,287 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:39:33,288 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:39:33,312 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:39:33,312 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:39:33,312 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:39:33,312 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:39:33,312 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:39:33,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:39:33,312 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:39:33,312 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:39:33,813 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:39:34,323 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:39:34,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:39:35,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:39:35,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:39:36,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:39:36,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:39:37,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:39:37,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:39:58,679 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 17:39:58,679 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:39:58,869 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 17:39:58,869 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:39:59,575 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 17:39:59,575 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:39:59,691 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 17:39:59,691 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:39:59,875 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 17:39:59,875 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:40:00,410 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 17:40:00,410 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:40:00,525 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 17:40:00,525 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:40:01,733 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 17:40:01,733 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:40:02,205 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 17:40:02,205 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:40:02,259 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 17:40:02,259 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:40:02,259 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:40:02,259 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:40:02,259 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:40:02,276 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:40:02,276 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 17:41:43,881 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:41:43,882 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:41:43,883 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:41:43,884 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:41:43,909 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:41:44,034 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:41:44,034 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:41:44,034 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:41:44,034 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:41:44,034 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:41:44,034 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:41:44,034 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:41:44,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:41:45,046 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:41:45,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:41:46,034 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:41:46,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:41:47,034 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:41:47,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:41:48,035 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:41:48,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:42:09,090 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 17:42:09,090 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:42:09,251 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 17:42:09,251 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:42:09,830 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 17:42:09,830 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:42:10,377 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 17:42:10,377 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:42:11,494 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 17:42:11,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:42:11,579 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 17:42:11,579 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:42:12,383 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 17:42:12,383 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:42:12,458 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 17:42:12,458 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:42:12,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 17:42:12,576 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:42:13,427 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 17:42:13,427 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:42:13,427 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:42:13,427 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:42:13,427 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:42:13,444 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:42:13,444 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 17:47:39,060 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:47:39,061 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:47:39,062 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:47:39,063 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:47:39,069 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:47:39,179 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:47:39,179 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:47:39,179 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:47:39,179 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:47:39,195 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:47:39,197 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:47:39,198 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:47:39,697 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:47:40,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:47:40,680 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:47:41,184 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:47:41,684 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:47:42,183 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:47:42,682 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:47:43,181 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:47:43,681 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:48:03,243 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 17:48:03,243 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:48:03,365 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 17:48:03,365 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:48:04,026 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 17:48:04,026 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:48:05,353 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 17:48:05,353 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:48:05,454 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 17:48:05,454 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:48:05,947 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 17:48:05,947 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:48:06,040 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 17:48:06,040 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:48:06,542 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 17:48:06,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:48:06,802 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 17:48:06,802 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:48:07,674 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 17:48:07,674 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:48:07,674 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:48:07,674 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:48:07,674 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:48:07,701 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:48:07,702 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 17:53:30,491 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 17:53:30,491 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 17:53:30,493 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 17:53:30,493 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 17:53:30,498 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 17:53:30,640 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 17:53:30,640 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 17:53:30,640 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 17:53:30,640 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 17:53:30,640 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 17:53:30,640 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 17:53:30,640 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 17:53:31,141 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 17:53:31,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 17:53:32,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 17:53:32,640 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 17:53:33,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 17:53:33,640 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 17:53:34,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 17:53:34,640 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 17:53:35,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 17:53:54,663 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 17:53:54,663 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 17:53:55,611 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 17:53:55,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 17:53:56,013 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 17:53:56,013 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 17:53:56,229 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 17:53:56,229 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 17:53:57,040 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 17:53:57,040 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 17:53:57,190 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 17:53:57,190 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 17:53:57,228 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 17:53:57,228 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 17:53:58,065 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 17:53:58,065 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 17:53:58,951 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 17:53:58,951 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 17:53:58,988 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 17:53:58,988 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 17:53:58,988 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 17:53:58,988 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 17:53:58,988 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 17:53:59,011 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 17:53:59,011 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:03:28,447 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:03:28,447 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:03:28,448 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 18:03:28,448 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 18:03:28,453 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:03:28,567 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:03:28,567 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Thread Group - Bin_Org.
+2023-07-16 18:03:28,567 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:03:28,567 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=15 ramp-up=5 delayedStart=false
+2023-07-16 18:03:28,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:03:28,585 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:03:28,585 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:03:28,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:03:29,248 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:03:29,581 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:03:29,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:03:30,233 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:03:30,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:03:30,899 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:03:31,233 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:03:31,565 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:03:31,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-11
+2023-07-16 18:03:32,232 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-12
+2023-07-16 18:03:32,564 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-13
+2023-07-16 18:03:32,897 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-14
+2023-07-16 18:03:33,230 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-15
+2023-07-16 18:03:52,379 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:03:52,379 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:03:52,621 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:03:52,621 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:03:53,327 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:03:53,327 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:03:53,463 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:03:53,463 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:03:53,850 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:03:53,850 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:03:54,003 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:03:54,003 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:03:54,366 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:03:54,366 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:03:55,085 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:03:55,085 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:03:55,482 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:03:55,482 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:03:55,571 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:03:55,571 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:03:55,886 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-11
+2023-07-16 18:03:55,886 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-11
+2023-07-16 18:03:56,254 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-12
+2023-07-16 18:03:56,254 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-12
+2023-07-16 18:03:56,641 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-15
+2023-07-16 18:03:56,641 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-15
+2023-07-16 18:03:56,742 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-13
+2023-07-16 18:03:56,742 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-13
+2023-07-16 18:03:57,416 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-14
+2023-07-16 18:03:57,416 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-14
+2023-07-16 18:03:57,416 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:03:57,416 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:03:57,416 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 18:03:57,440 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 18:03:57,440 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:08:43,215 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:08:43,216 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:08:43,216 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 18:08:43,217 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 18:08:43,221 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:08:43,226 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:08:43,226 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:08:43,226 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:08:43,226 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:08:43,226 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:08:43,226 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:08:43,226 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:08:43,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:08:44,237 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:08:44,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:08:45,226 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:08:45,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:08:46,227 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:08:46,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:08:47,226 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:08:47,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:09:07,566 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:09:07,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:09:08,179 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:09:08,179 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:09:08,272 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:09:08,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:09:08,626 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:09:08,626 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:09:09,094 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:09:09,094 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:09:09,198 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:09:09,198 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:09:09,699 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:09:09,699 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:09:10,853 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:09:10,853 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:09:11,402 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:09:11,402 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:09:11,965 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:09:11,965 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:09:11,965 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:09:11,965 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:09:11,965 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 18:09:11,988 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 18:09:11,988 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:17:39,020 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:17:39,021 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:17:39,022 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 18:17:39,022 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 18:17:39,027 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:17:39,143 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:17:39,143 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:17:39,143 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:17:39,143 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:17:39,143 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:17:39,143 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:17:39,143 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:17:39,645 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:17:40,155 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:17:40,643 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:17:41,144 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:17:41,644 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:17:42,158 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:17:42,658 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:17:43,158 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:17:43,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:18:02,978 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:18:02,978 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:18:03,519 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:18:03,519 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:18:04,158 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:18:04,158 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:18:04,485 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:18:04,485 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:18:05,283 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:18:05,283 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:18:05,308 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:18:05,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:18:06,127 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:18:06,127 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:18:06,201 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:18:06,201 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:18:06,581 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:18:06,581 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:18:07,096 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:18:07,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:18:07,097 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:18:07,097 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:18:07,097 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 18:18:07,115 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 18:18:07,115 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:22:22,506 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:22:22,506 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:22:22,507 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2023-07-16 18:22:22,508 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2023-07-16 18:22:22,552 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:22:22,567 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:22:22,567 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:22:22,567 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:22:22,567 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:22:22,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:22:22,567 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:22:22,567 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:22:22,601 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:23,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:22:23,581 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:22:24,067 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:22:24,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:22:25,067 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:22:25,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:22:26,068 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:22:26,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:22:27,067 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:22:27,579 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:32,573 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:37,570 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:42,570 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:46,477 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:22:46,477 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:22:46,616 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:22:46,616 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:22:47,511 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:22:47,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:22:47,571 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:48,276 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:22:48,276 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:22:48,460 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:22:48,460 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:22:49,116 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:22:49,116 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:22:49,192 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:22:49,192 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:22:50,211 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:22:50,211 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:22:50,700 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:22:50,700 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:22:51,202 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:22:51,202 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:22:51,202 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:22:51,202 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:22:51,202 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2023-07-16 18:22:51,202 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2023-07-16 18:22:51,206 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:22:51,207 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:23:26,120 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:23:26,121 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:23:26,122 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2023-07-16 18:23:26,122 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2023-07-16 18:23:26,124 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:23:26,132 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:23:26,132 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:23:26,132 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:23:26,132 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:23:26,133 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:23:26,135 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:26,137 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:23:26,137 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:23:26,634 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:23:27,134 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:23:27,633 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:23:28,133 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:23:28,633 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:23:29,133 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:23:29,633 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:23:30,133 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:23:30,634 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:23:31,135 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:36,128 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:41,127 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:46,127 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:50,131 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:23:50,131 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:23:51,127 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:51,236 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:23:51,236 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:23:51,380 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:23:51,380 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:23:51,656 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:23:51,656 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:23:52,116 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:23:52,116 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:23:52,180 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:23:52,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:23:52,557 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:23:52,557 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:23:53,777 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:23:53,777 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:23:54,478 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:23:54,478 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:23:54,846 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:23:54,846 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:23:54,846 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:23:54,846 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:23:54,846 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2023-07-16 18:23:54,846 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2023-07-16 18:23:54,850 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:23:54,851 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:24:48,837 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:24:48,837 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:24:48,838 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2023-07-16 18:24:48,838 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2023-07-16 18:24:48,840 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:24:48,847 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:24:48,847 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:24:48,847 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:24:48,847 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:24:48,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:24:48,851 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:24:48,853 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:24:48,853 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:24:49,350 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:24:49,850 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:24:50,350 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:24:50,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:24:51,349 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:24:51,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:24:52,349 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:24:52,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:24:53,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:24:53,851 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:24:58,844 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:25:03,844 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:25:08,842 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:25:12,621 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:25:12,621 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:25:12,632 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:25:12,632 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:25:13,842 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:25:14,145 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:25:14,145 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:25:14,323 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:25:14,323 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:25:14,730 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:25:14,730 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:25:15,214 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:25:15,214 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:25:15,723 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:25:15,723 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:25:16,242 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:25:16,242 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:25:16,423 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:25:16,423 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:25:17,132 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:25:17,132 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:25:17,132 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:25:17,132 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:25:17,132 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2023-07-16 18:25:17,132 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2023-07-16 18:25:17,135 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://localhost:8086/write?db=jmeter, responseCode: 401, responseBody: {"code":"unauthorized","message":"unauthorized access"}
+2023-07-16 18:25:17,136 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-07-16 18:26:35,269 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-07-16 18:26:35,269 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-07-16 18:26:35,270 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Starting worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient and queue capacity: 5000
+2023-07-16 18:26:35,270 INFO o.a.j.v.b.BackendListener: Backend Listener - Bin_Org: Started  worker with class: class rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient
+2023-07-16 18:26:35,275 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-07-16 18:26:35,390 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Bin_Org
+2023-07-16 18:26:35,390 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group - Bin_Org.
+2023-07-16 18:26:35,390 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-07-16 18:26:35,390 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2023-07-16 18:26:35,390 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-1
+2023-07-16 18:26:35,390 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-07-16 18:26:35,390 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-07-16 18:26:35,905 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-2
+2023-07-16 18:26:36,401 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-3
+2023-07-16 18:26:36,890 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-4
+2023-07-16 18:26:37,390 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-5
+2023-07-16 18:26:37,890 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-6
+2023-07-16 18:26:38,391 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-7
+2023-07-16 18:26:38,906 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-8
+2023-07-16 18:26:39,407 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-9
+2023-07-16 18:26:39,906 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Bin_Org 1-10
+2023-07-16 18:26:59,708 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-2
+2023-07-16 18:26:59,708 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-2
+2023-07-16 18:26:59,720 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-1
+2023-07-16 18:26:59,720 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-1
+2023-07-16 18:27:00,154 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-3
+2023-07-16 18:27:00,154 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-3
+2023-07-16 18:27:00,949 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-4
+2023-07-16 18:27:00,949 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-4
+2023-07-16 18:27:01,799 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-6
+2023-07-16 18:27:01,799 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-6
+2023-07-16 18:27:01,877 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-5
+2023-07-16 18:27:01,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-5
+2023-07-16 18:27:02,404 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-7
+2023-07-16 18:27:02,404 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-7
+2023-07-16 18:27:02,580 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-8
+2023-07-16 18:27:02,580 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-8
+2023-07-16 18:27:03,057 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-9
+2023-07-16 18:27:03,057 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-9
+2023-07-16 18:27:03,543 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Bin_Org 1-10
+2023-07-16 18:27:03,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Bin_Org 1-10
+2023-07-16 18:27:03,543 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-07-16 18:27:03,543 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-07-16 18:27:03,543 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: Shutting down influxDB scheduler...
+2023-07-16 18:27:03,566 INFO r.n.a.j.JMeterInfluxDBBackendListenerClient: influxDB scheduler terminated!
+2023-07-16 18:27:03,566 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
