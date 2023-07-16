@@ -26,7 +26,7 @@ Run > .\influx.exe v1 dbrp create --org-id <orgID> --bucket-id <bucketID> --db <
 For example:
 .\influx.exe v1 dbrp create --org-id 186bd74894f2557d --bucket-id f8f6049989c8af86 --db Jmeter-db --rp Jmeterdb-rp --token NE66mSeadfM5WC8PpoU8lFoK1lXmjWWIif4jEpDNaaiTnQtztD44YoIcfROQvGaqOH2w2KIsqvQausUpvK7uFA==
 
-V# My current influx database details:
+## My current influx database details:
 
 influxDBOrg: GCML
 influxBucket: jmeter
