@@ -4,11 +4,11 @@ How to perfom Jmeter-Influxdb-Grafana-Integration
 ## To opening influxdb windows amd64
 open the complete path of the influxdb with powershell > e.g - C:\Program Files\Influxdb\influxdb\influxdb2_windows_amd64
 
-Run > .\influxd.exe
+Run > .\influxd.exe  
 
-## Navigate to brower and visit > 127.0.0.1:8086
+## Navigate to browser and visit > 127.0.0.1:8086
 
-Setup your influxdb account or login - Oladeni/1Latunde
+Setup your influxdb account or login - Oladeni1/1Latunde
 
 influxdb token: NE66mSeadfM5WC8PpoU8lFoK1lXmjWWIif4jEpDNaaiTnQtztD44YoIcfROQvGaqOH2w2KIsqvQausUpvK7uFA==
 
@@ -55,11 +55,11 @@ https://olatundeoladeni1976.grafana.net/login
 
 Go to the path of your grafana bin folder e.g - C:\Grafana\grafana-10.0.2\bin
 
-Run > grafane.exe
+Run > grafana.exe
 
-Run > grafane-server.exe
+Run > grafana-server.exe
 
-Navigate to brower and visit > 127.0.0.1:8087
+Navigate to browser and visit > 127.0.0.1:8087
 
 or
 
